@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/*.log*
+output/*.xlsx
+.venv/
+KILL_SWITCH
+output/state/
+output/**/*.sqlite3
+output/**/*.sqlite3-shm
+output/**/*.sqlite3-wal
+*.env
+output/cache/
+output/dashboard/
+.env  *.sqlite3  __pycache__/  *.log 

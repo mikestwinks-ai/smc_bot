@@ -1,0 +1,10 @@
+MetaTrader5>=5.0.45      # Windows only
+pandas>=2.0
+numpy>=1.24
+python-dotenv>=1.0
+tzdata>=2024.1           # time zone database (required on Windows)
+pytest>=7.0              # tests only
+# Added in later phases: openpyxl (Excel journal), requests (calendar/Telegram)
+openpyxl>=3.1             # Phase 6 Excel exports
+streamlit>=1.57,<2.0      # Phase 8 local read-only dashboard
+plotly>=7.0,<8.0          # Phase 8.2 interactive market chart with stable view reset
