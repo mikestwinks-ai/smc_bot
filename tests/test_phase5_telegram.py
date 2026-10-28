@@ -19,7 +19,7 @@ from smc.utils.logger import setup_logging
 from tests.harness import add_plan
 from tests.news_helpers import RecordingNotifier, news_env
 
-TOKEN = "123456789:AAEhBP0av28GDoRCx3x9yY4hZ7wQ9k1LmNo"
+TOKEN = "123456789:AAEhBP0av28GDoRCx3x9yY4hZ7wQ9k1LmNo"   # _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Telegram bot token should look like such
 
 
 def cfg(**kw) -> TelegramConfig:
